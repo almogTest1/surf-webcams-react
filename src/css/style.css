@@ -176,3 +176,8 @@ nav, footer {
 .rishon iframe {
     width: 905px !important;
 }
+
+
+iframe {
+    border: 0;
+}
