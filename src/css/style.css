@@ -1,0 +1,178 @@
+body,div,h1,p {
+    direction: rtl;
+    text-align: right;
+}
+body {
+    padding-top: 56px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  nav a {
+    margin-right: 0 !important;
+  }
+
+  ul.navbar-nav {
+    padding: 0;
+  }
+
+  ul li.nav-item {
+    border-bottom: 1px solid #fff;
+  }
+}
+
+a.navbar-brand {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+nav .container {
+    padding-right: 0;
+}
+
+header {
+    padding: 10px 10px 5px 0 !important;
+    height: 157px;
+}
+header.jumbotron.my-4 {
+    margin: 20px 0 !important;
+}
+
+iframe {
+    height: 300px;
+}
+
+.rishon iframe {
+    width: 678px !important;
+}
+
+.display-3 {
+    font-size:3rem !important;
+}
+
+.lead {
+    font-size: 1.5rem !important;
+}
+
+.cams-container{
+    position: relative;
+    top: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 16.5px 25px 0 rgba(0,0,0,.15);
+}
+.card-img-top {
+    height: 200px;
+}
+
+.card-title {
+    margin: 5px !important;
+    font-size: 22px;
+}
+.card-text {
+    margin-right: 5px;
+}
+footer.bg-dark {
+    padding: 15px 0;
+}
+
+footer p {
+    font-size:17px;
+}
+footer ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size:17px;
+}
+footer ul li  a {
+   color: #fff;
+   margin-left: 4px;
+}
+footer ul li  a:hover {
+    color: #fff;
+}
+
+
+
+a.cameraPageLink { 
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.cameraPageLink:hover { 
+    color: #000;
+    text-decoration: none;
+}
+
+a.cameraPageLink:active { 
+    text-decoration: none;
+    color: lightgray;
+}
+
+a.cameraPageLink .card-body {
+    height: 89px;
+}
+
+.bg-404, .error-image {   
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+
+.bg-404 .error-image img {
+    margin-top: 20px;
+}
+
+section#error-page {
+    margin-bottom: 20px;
+}
+.card-img, .card-image {
+    padding: 0 !important;
+}
+
+img.card-image , .card-img img{
+    width: 100%;
+}
+img.card-image  {
+    height: 200px;
+}
+
+
+.card-img img#sdotYam {
+    height: 392px;
+}
+
+a#sdot-yam {
+    display: inline-block;
+    margin: 20px 7px 25px 0;
+}
+
+a.camLink {
+    display: inline-block;
+    margin: 7px;
+    color: #000;
+}
+a.camLink:hover{
+    color: #000;
+    text-decoration: none;;
+}
+.card-body {
+    padding: 0 !important;
+}
+
+nav, footer {
+    box-shadow: 0 16.5px 25px 0 rgba(0,0,0,.15);
+}
+.rishon {
+    overflow: hidden;
+}
+.rishon iframe {
+    width: 905px !important;
+}
