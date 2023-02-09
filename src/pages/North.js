@@ -31,13 +31,6 @@ function North() {
                 
           <div className="col-xs-12 col-lg-6">
           <div className="card">
-            <h1 className="card-title">חיפה מרידיאן</h1>
-            <iframe src="https://www.youtube.com/embed/oF_ZxTmlj7E" title="שידור חי מחוף מרידיאן חיפה" scrolling="no" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} quality="high"></iframe>
-          </div>
-          </div>
-
-          <div className="col-xs-12 col-lg-6">
-          <div className="card">
             <h1 className="card-title">חיפה בקדור</h1>
             <iframe src="https://g2.ipcamlive.com/player/player.php?alias=5ffd9eb29b665" title="שידור חי מחוף הבקדור חיפה" scrolling="no" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} quality="high"></iframe>
           </div>
