@@ -1,0 +1,17 @@
+{
+  "name" : "IsraelBeachCams",
+  "shortName": "israelbeachcams",
+  "start_url": "/",
+  "display": "standalone",
+  "background-color": "#fff",
+  "theme_color": "#343a40",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vendor/media/icon.png",
+      "type": "image/png",
+      "sizes" : "168x168"
+    }
+  ]
+
+}
