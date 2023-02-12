@@ -1,8 +1,15 @@
 import React from 'react'
-import centerCams from '../camsJson.json' 
-
 
 function Center() {
+  const spotsList = [
+    {"spotName":"טיילת תל אביב", "src": "https://webcasting.co.il/player/tlv/cam5_mute.html", "title": "שידור חי מטיילת תל אביב"},
+    {"spotName":"החוף המערבי תל אביב", "src": "https://webcasting.co.il/player/tlv/cam4_mute.html", "title": "שידור חי מהחוף המערבי ביפו"},	
+    {"spotName":"הילטון תל אביב", "src": "https://g2.ipcamlive.com/player/player.php?alias=604f601935d65", "title": "שידור חי מחוף הילטון תל אביב"},
+    {"spotName":"הילטון ב תל אביב" , "src": "https://g2.ipcamlive.com/player/player.php?alias=604f5fc79d973", "title": "שידור חי מחוף הילטון ב תל אביב"},
+    {"spotName":"גורדון תל אביב" , "src": "https://webcasting.co.il/player/tlv/frishman_mute.html", "title": "שידור חי מחוף גורדון תל אביב"},
+	  {"spotName":"טובגו בת ים", "src": "https://rtsp.me/embed/ETtNefEF/", "title": "שידור חי מחוף טובגו בת ים"}
+  ]
+  
   return (
     <div>
       <div className="container cams-container">
@@ -10,7 +17,7 @@ function Center() {
       </div>
       <div className="container cams-container">
         <div className="row">
-          { centerCams.map(item => (
+          { spotsList.map(item => (
             <div className="col-xs-12 col-lg-6">
             <div className="card">
               <h1 className="card-title">{item.spotName}</h1>
