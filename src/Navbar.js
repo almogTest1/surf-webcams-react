@@ -1,12 +1,6 @@
 import React from 'react'
 import Logo from './vendor/media/logo.webp'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
-import Center from './pages/Center'
-import South from './pages/South'
-import North from './pages/North'
-import Hermon from './pages/Hermon'
-
 
 function Navbar() {
   return (
